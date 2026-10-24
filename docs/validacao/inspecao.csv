@@ -1,0 +1,10 @@
+tabela,linhas,colunas,col_com_nulos,pct_nulos_max,duplicados,chave,duplicados_chave
+orders,99441,8,3,2.98,0,order_id,0.0
+items,112650,7,0,0.0,0,order_id+order_item_id,0.0
+customers,99441,5,0,0.0,0,customer_id,0.0
+sellers,3095,4,0,0.0,0,seller_id,0.0
+products,32951,9,8,1.85,0,product_id,0.0
+payments,103886,5,0,0.0,0,order_id+payment_sequential,0.0
+reviews,100000,7,2,88.28,0,review_id+order_id,0.0
+translation,71,2,0,0.0,0,product_category_name,0.0
+geo,1000163,5,0,0.0,261831,,

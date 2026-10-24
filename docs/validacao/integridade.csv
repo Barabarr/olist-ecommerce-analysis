@@ -1,0 +1,13 @@
+filha,coluna,pai,coluna_pai,valores_distintos,sem_correspondencia,pct_sem_correspondencia
+items,order_id,orders,order_id,98666,0,0.0
+items,product_id,products,product_id,32951,0,0.0
+items,seller_id,sellers,seller_id,3095,0,0.0
+payments,order_id,orders,order_id,99440,0,0.0
+reviews,order_id,orders,order_id,99441,0,0.0
+orders,customer_id,customers,customer_id,99441,0,0.0
+customers,customer_zip_code_prefix,geo,geolocation_zip_code_prefix,14994,157,1.05
+sellers,seller_zip_code_prefix,geo,geolocation_zip_code_prefix,2246,7,0.31
+products,product_category_name,translation,product_category_name,73,2,2.74
+orders,order_id,items,order_id,99441,775,0.78
+orders,order_id,payments,order_id,99441,1,0.0
+orders,order_id,reviews,order_id,99441,0,0.0

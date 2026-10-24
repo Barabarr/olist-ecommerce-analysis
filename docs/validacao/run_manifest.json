@@ -1,0 +1,140 @@
+{
+  "inicio": "2026-10-02T20:08:00.441079+00:00",
+  "status": "sucesso",
+  "versoes": {
+    "python": "3.14.7",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3"
+  },
+  "config": {
+    "STATUS_SEM_RECEITA": [
+      "canceled",
+      "unavailable"
+    ],
+    "RECOMPRA_REGRA": "dia_diferente",
+    "CATEGORIA_PEDIDO_ESTRATEGIA": "valor"
+  },
+  "etapas": {
+    "orders": {
+      "linhas": 99441,
+      "pedidos_por_status": {
+        "delivered": 96478,
+        "shipped": 1107,
+        "canceled": 625,
+        "unavailable": 609,
+        "invoiced": 314,
+        "processing": 301,
+        "created": 5,
+        "approved": 2
+      },
+      "pedidos_sem_receita": 1234
+    },
+    "geo": {
+      "linhas_antes": 1000163,
+      "pontos_fora_do_brasil_removidos": 42,
+      "ceps_unicos": 19010
+    },
+    "reviews": {
+      "linhas_antes": 100000,
+      "pedidos_com_mais_de_uma_avaliacao": 555,
+      "avaliacoes_descartadas_por_pedido": 559,
+      "review_ids_ligados_a_mais_de_um_pedido": 802,
+      "pedidos_com_texto": 41543
+    },
+    "payments": {
+      "linhas_antes": 103886,
+      "removidos_valor_negativo_ou_not_defined": 3
+    }
+  },
+  "validacao": {
+    "tabelas_validadas": [
+      "dataset_analitico",
+      "dim_cliente",
+      "dim_data",
+      "dim_geo_cliente",
+      "dim_geo_vendedor",
+      "dim_produtos",
+      "dim_sellers",
+      "fato_itens",
+      "fato_pagamentos",
+      "fato_palavras_review",
+      "reviews_nlp"
+    ],
+    "checagens_integridade": 9,
+    "reconciliacao": {
+      "receita de produtos": {
+        "fato_itens": 13591643.7,
+        "dataset_analitico": 13591643.7
+      },
+      "frete": {
+        "fato_itens": 2251909.54,
+        "dataset_analitico": 2251909.54
+      },
+      "valor pago": {
+        "fato_pagamentos": 16008872.12,
+        "dataset_analitico": 16008872.12
+      }
+    }
+  },
+  "saidas": {
+    "dim_data": [
+      1096,
+      11
+    ],
+    "dim_cliente": [
+      99441,
+      5
+    ],
+    "dim_geo_cliente": [
+      14836,
+      6
+    ],
+    "dataset_analitico": [
+      99441,
+      42
+    ],
+    "fato_itens": [
+      112650,
+      13
+    ],
+    "fato_pagamentos": [
+      103883,
+      8
+    ],
+    "dim_produtos": [
+      32951,
+      12
+    ],
+    "dim_sellers": [
+      3095,
+      4
+    ],
+    "dim_geo_vendedor": [
+      2239,
+      6
+    ],
+    "reviews_nlp": [
+      41543,
+      7
+    ],
+    "fato_palavras_review": [
+      298319,
+      6
+    ]
+  },
+  "metricas": {
+    "pedidos_total": 99441,
+    "pedidos_validos_receita": 98207,
+    "pedidos_sem_receita": 1234,
+    "receita_produtos_pedidos_validos": 13494400.74,
+    "receita_produtos_pedidos_sem_receita": 97242.96,
+    "pedidos_sem_itens": 775,
+    "pedidos_datas_inconsistentes": 1382,
+    "regra_recompra": "dia_diferente",
+    "clientes_com_pedido_valido": 94990,
+    "clientes_recorrentes": 2065,
+    "pct_clientes_recorrentes": 2.17,
+    "pct_pedidos_que_sao_recompra": 2.36
+  },
+  "fim": "2026-10-02T20:09:41.094887+00:00"
+}
