@@ -1,0 +1,23 @@
+# Ambiente virtual e cache do Python (recriados com pip install)
+.venv/
+__pycache__/
+*.pyc
+
+# Dados: baixados do Kaggle (raw) e gerados pelo ETL (processed)
+data/raw/
+data/processed/
+
+# Backup local do código antigo
+_backup*/
+
+# Arquivos temporários do Office e do Windows
+~$*
+Thumbs.db
+desktop.ini
+
+# Configurações locais de editor
+.vscode/
+.idea/
+
+# Credenciais: não existem hoje; a regra evita acidentes no futuro
+.env

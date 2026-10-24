@@ -1,0 +1,5 @@
+# Testado com Python 3.14
+pandas==3.0.6
+numpy==2.5.3
+pandera==0.33.1
+pyarrow==25.0.1
