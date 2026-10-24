@@ -1,0 +1,9 @@
+{
+  "name": "Olist - Storytelling",
+  "dataColors": ["#2A78D6", "#86B6EF", "#C3C2B7", "#898781", "#D03B3B", "#52514E"],
+  "foreground": "#0B0B0B",
+  "foregroundNeutralSecondary": "#52514E",
+  "foregroundNeutralTertiary": "#898781",
+  "background": "#FFFFFF",
+  "tableAccent": "#2A78D6"
+}
