@@ -33,7 +33,7 @@ E de perguntas de apoio, uma por página do dashboard:
 - **Período:** setembro de 2016 a setembro de 2018. Os meses das pontas têm coleta incompleta e ficam fora dos gráficos de tendência.
 - **Granularidade:** é o ponto que exige mais cuidado. Um **pedido** pode ter vários **itens**, cada item pode vir de um **vendedor** diferente, e um pedido pode ter várias **formas de pagamento**. Cada tabela foi tratada no seu próprio grão, para que nenhuma junção conte o mesmo pedido mais de uma vez.
 
-Os dados não estão no repositório. Veja [Como reproduzir](#como-reproduzir).
+Os CSVs originais não estão no repositório (veja [Como reproduzir](#como-reproduzir)). O arquivo `.pbix` inclui os dados já tratados, importados no modelo do Power BI.
 
 ## Ferramentas
 
@@ -179,6 +179,7 @@ Para apenas visualizar o relatório, não é preciso rodar nada: veja as imagens
 ## Fonte e licença
 
 - Dados: Olist, [Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), licença [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+- O `.pbix` contém dados derivados do dataset e, por isso, segue a mesma licença CC BY-NC-SA 4.0.
 - Código: licença MIT (ver [`LICENSE`](LICENSE)).
 
 ---
